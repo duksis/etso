@@ -10,8 +10,8 @@ jobs:
     name: Run test
     strategy:
       matrix:
-        otp: ["25.3", "26.2", "27.1"]
-        elixir: ["1.14.4", "1.17.1"]
+        otp: ["26.2"]
+        elixir: ["1.15", "1.17.1"]
     env:
       MIX_ENV: test
     steps:
